@@ -1,0 +1,148 @@
+body{
+    width: 99%;
+    background-color: #303030;
+}
+
+.topo{
+    display: flex;
+    padding: 2%;
+    
+    
+}
+#logo{
+    margin-top: -6%;
+    margin-left: 50%;
+}
+
+
+
+#logo_cima{
+    margin: 5px 5px 10px 0px;  
+    transform:translateX(240%);
+           
+}
+#logo_meio{
+     margin: 0px 0px 2px 0px;    
+    transform:translate(95%)
+
+}
+
+
+#logo_baixo{
+    transform:translateX(-51%);  
+    margin: 10px 15px -6px 6px;
+}
+
+.jumpy{
+   display:flow-root;
+   margin-left: 40%;
+   margin-top: 1%;  
+  
+}
+h1{
+    font-family: Helvetica;    
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34px;   
+    text-align: center;
+    color:rgba(255, 255, 255, 1);
+
+}
+form{
+    display:flex;
+    flex-direction:column;   
+    align-items: center;
+    margin-top: -1%;
+}
+.form-group{
+    width: 35%;
+    margin-top: 2%;
+    font-family: 'Raleway';    
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20x; 
+    color: #FFFFFF;   
+}
+#fnome{
+    height: 50%;
+    width: 100%;
+    left: 50%;
+    margin-top:0%;
+    border-radius: 10px;
+    padding: 11px 13px 11px 13px;
+    box-shadow: 2px 1px 1px 1px;
+    color: rgb(0, 153, 255);   
+    
+}
+
+#femail{
+    height: 50%;
+    width: 100%;
+    left: 50%;
+    margin-top: 0%;
+    border-radius: 10px;
+    padding: 11px 13px 11px 13px;
+    box-shadow: 2px 1px 1px 1px;
+    color: rgb(0, 153, 255);
+}
+
+#fphone{
+    height: 50%;
+    width: 100%;
+    left: 50%;
+    margin-top:0%;
+    border-radius: 10px;
+    padding: 11px 13px 11px 13px;
+    box-shadow: 2px 1px 1px 1px;
+    color: rgb(0, 153, 255);
+}
+#fcpf{
+    height: 50%;
+    width: 100%;
+    left: 50%;
+    margin-top: 0%;
+    border-radius: 10px;
+    padding: 11px 13px 11px 13px;
+    box-shadow: 2px 1px 1px 1px;
+    color: rgb(0, 153, 255);
+}
+#fsenha{
+    height: 50%;
+    width: 100%;
+    left: 50%;    
+    margin-top: 0%;
+    border-radius: 10px;
+    padding: 11px 13px 11px 13px;
+    box-shadow: 2px 1px 1px 1px;
+    color: rgb(0, 153, 255);
+}
+#cadastro{   
+    display:flex;
+    flex-direction:row;     
+    height: 50%;
+    width: 37%;
+    margin-top: 5%;
+    margin-left:2%;    
+    background: rgba(12, 112, 242, 1);
+    border-radius: 10px;
+    padding: 11px 13px 11px 13px;
+    box-shadow: 2px 1px 1px 1px;
+    color: rgb(255,255,255,1);
+}
+#cadastro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Raleway';    
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 12px;   
+    text-align:center;
+    color: #FFFFFF;
+    width: 357%;
+    margin-top: 30%;
+    margin-left: -118%;
+
+}
+

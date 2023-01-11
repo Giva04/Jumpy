@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jumpy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <header>
+                <!-- logo DNC -->
+        <container class="topo">
+            <img id="logo_dnc" src="imagens/logo_dark_DNC.png" width="150" alt="logo_dnc">
+        </container>
+                <!-- detalhe logo jumpy   -->
+        <div id="logo">
+            <img id="logo_cima" src="imagens/logo_cima.png" alt="logo_cima">
+            <img id="logo_meio" src="imagens/logo_meio.png" alt="logo_meio">
+            <img id="logo_baixo" src="imagens/logo_baixo.png" alt="logo_baixo">
+            
+        </div>
+        
+                <!-- logo Jumpy escrita -->  
+            <section class="jumpy">
+            <img src="imagens/j.png" alt="j">
+            <img src="imagens/u.png" alt="u">
+            <img src="imagens/m.png" alt="m">
+            <img src="imagens/p.png" alt="p">
+            <img src="imagens/y.png" alt="y">
+            </section>
+        
+    </header>
+<body>
+    <h1>Bem vindo ao Jumpy!</h1>
+        <!-- cadastro de usuario -->
+    <form onsubmit="checkFields(); return false">    
+        <div class="form-group">
+            <label for="fname">Nome completo:</label>
+            <input id="fnome" name="fnome" type="text" placeholder="Digite seu nome aqui!">
+            <!-- <h5 class="verificar">*Campo Obrigatorio*</h5> -->
+        </div>
+        <div class="form-group">
+            <label for="femail">Email:</label><br>
+            <input id="femail" name="femail"  type="email" placeholder="seuemail@.com">
+            <!-- <h5 class="verificar">*Campo Obrigatorio*</h5> -->
+        </div>
+        <div class="form-group">
+            <label for="fphone">Telefone:</label><br>
+            <input id="fphone" name="fphone" type="telefone" placeholder="(99) 999999999" pattern="[0-9{2}[0-9]{4}[0-9]{4}">
+            <!-- <h5 class="verificar">*Campo Obrigatorio*</h5>
+        </div> -->
+        </div>
+        <div class="form-group">
+            <label class="fcpf">CPF:</label>
+            <input id="fcpf" name="fcpf" type="text" placeholder="***.***.***-**">
+            <!-- <h5 class="verificar">*Campo Obrigatorio*</h5> -->
+        </div>
+        <div class="form-group">
+            <label class="fsenha">Senha:</label>
+            <input id="fsenha" name="fsenha" type="text" placeholder="***********">
+            <!-- <h5 class="verificar">*Campo Obrigatorio*</h5> -->
+        </div>
+        <div class="cadastrar">
+            <input id="cadastro" type="submit" value="Cadastrar">
+        </div>
+    </form>      
+       
+
+    
+</body>
+</html>
