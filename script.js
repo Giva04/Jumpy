@@ -37,6 +37,7 @@ clearForm = () => {
 //Função para retornar mensagem de sucesso para os campos informados.
 successRegister = (checker) => {
     if(checker){
+      verificadorMaster.style.color= "rgb(79, 209, 81)";
       verificadorMaster.innerHTML = `<p class="success">${sucessoLogin}<p>`;
       clearForm();
     }
