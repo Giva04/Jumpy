@@ -1,9 +1,8 @@
 body{
     width: 99%;
     min-height: 100vh;
-    background-color: #303030;
-         
-   
+    background-color: #303030;   
+      
 }
 
 .topo{
@@ -62,7 +61,7 @@ h1{
     color: white;
     margin-right:15% ;
     max-width: 100%;    
-    margin-top: 5%;
+    margin-top: 1%;
     margin-bottom: 10px;
     padding-bottom: 20px;    
     position: relative;
@@ -102,11 +101,11 @@ h1{
 }
 .verificar{
     position:absolute;
-    font-size: 60%;
+    font-size: 7px;
     color: rgba(231, 53, 80, 1);    
     height: 1px;
-    margin-left: 30%;
-    margin-top:0.2%;
+    margin-left: 375px;
+    margin-top:2px;
     margin-bottom:1%;
    
 }

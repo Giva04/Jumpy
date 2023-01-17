@@ -4,6 +4,7 @@ let elementosForm = document.querySelectorAll("input");
 let verificador = document.querySelectorAll(".verificar");
 let verificadorMaster = document.querySelector(".verificarMaster");
 
+
 // Variáveis das Mensagens exibidas
 let campoCheck = "*Campo Obrigatório*";
 let checkGeral = "Campos obrigatórios não registrados.";
@@ -12,6 +13,8 @@ let sucessoLogin = "Sucesso!";
 
 let i = 0;
 let checker = true;
+
+
 
 //Função para checar se cada campo possui informação preenchida
 checkFields = () => {
@@ -42,7 +45,9 @@ successRegister = (checker) => {
       clearForm();
     }
     else{
+      verificadorMaster.style.color= "rgb(238, 27, 27);";
       verificadorMaster.innerHTML = `<p class="testeMaster">${checkGeral}<p>`;
+      elementoP.style.visibility ="visible";
     }
 }
 
